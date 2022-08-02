@@ -157,7 +157,7 @@ header ul li:not(:last-child)::after {
 .landing .container::after {
   content: "";
   position: absolute;
-  bottom: -350px;
+  bottom: -650px;
   left: 50px;
   width: calc(100% - 100px);
   height: 1px;
@@ -169,7 +169,7 @@ header ul li:not(:last-child)::after {
 footer {
   height: 72px;
   margin-bottom: 30px;
-  margin-top: 320px;
+  margin-top: 650px;
 }
 footer .container {
   display: grid;
@@ -235,7 +235,7 @@ footer .container .hello {
     padding: 0 30px;
   }
   .landing .container::after {
-    bottom: -370px;
+    bottom: -815px;
   }
   .landing .container .left h1 {
     padding: 30px 0 0 0;
@@ -259,7 +259,7 @@ footer .container .hello {
   footer {
     height: 0;
     margin-bottom: 0;
-    margin-top: 330px;
+    margin-top: 770px;
   }
   footer .container {
     display: flex;
